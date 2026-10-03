@@ -4,7 +4,7 @@
 // NIM  : 1124160226
 // =============================================
 
-//BAGIAN B
+//BAGIAN B 
 
 //----------ABSTRACTION----------
 enum StatusScan { sukses, terlambat, salahUrutan, tidakDitemukan }
