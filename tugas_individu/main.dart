@@ -70,7 +70,7 @@ String toMessage(StatusScan status) {
   }
 }
 
-// ---------- ALGORITHM (Proses Utama) ----------
+// ----------ALGORITHM----------
 StatusScan scanCheckpoint(String namaPos, int jamScan, int menitScan) {
   // 1. Cari data checkpoint (BR-01)
   Checkpoint? pos = findCheckpoint(namaPos);
@@ -96,7 +96,7 @@ StatusScan scanCheckpoint(String namaPos, int jamScan, int menitScan) {
   }
 }
 
-// ---------- TEST SCENARIO ----------
+// ----------TEST SCENARIO----------
 void main() {
   print("MULAI PATROLI");
   
